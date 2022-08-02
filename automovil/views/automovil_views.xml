@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+
+    <!-- This Menu Item will appear in the Upper bar, that's why It needs NO parent or action -->
+    <menuitem id="automovil_menu_root" name="Automovil" sequence="10"/>
+
+    <!-- This Menu Item Must have a parent -->
+    <menuitem id="automovil_menu_categ" name="Automoviles" parent="automovil_menu_root" sequence="10"/>
+
+    <!-- model.name action window -->
+    <record id="automovil_action" model="ir.actions.act_window">
+        <field name="name">Automoviles</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">automovil</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Hola aqui puedes crear mas automoviles
+            </p><p>
+                No hemos encontrado ningun automovil.
+            </p>
+        </field>
+    </record>
+<!-- This Menu Item must have a parent and an action -->
+<menuitem id="automovil_menu_act" name="Automovil" parent="automovil_menu_categ" action="automovil_action" sequence="10"/>
+
+
+</odoo>
