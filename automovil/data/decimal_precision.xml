@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <record id="automovil_velocity" model="decimal.precision">
+        <field name="name">Automovil Velocity</field>
+        <field name="digits">3</field>
+    </record>
+
+</odoo>

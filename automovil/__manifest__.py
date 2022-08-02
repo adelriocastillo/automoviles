@@ -58,6 +58,7 @@ Automovil Module Proyect.
     'data': [
         'security/ir.model.access.csv',
         'views/automovil_views.xml',
+        'data/decimal_precision.xml'
     ],
     'demo': [
     ],

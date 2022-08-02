@@ -25,5 +25,36 @@
 <!-- This Menu Item must have a parent and an action -->
 <menuitem id="automovil_menu_act" name="Automovil" parent="automovil_menu_categ" action="automovil_action" sequence="10"/>
 
+<!-- model.name tree view -->
+<record id="automovil_view_tree" model="ir.ui.view">
+    <field name="name">automovil.view.tree</field>
+    <field name="model">automovil</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="is_on"/>
+            <field name="velocity"/>
+            <field name="doors_number"/>
+        </tree>
+    </field>
+</record>
+<!-- model.name form view -->
+<record id="automovil_view_form" model="ir.ui.view">
+    <field name="name">automovil.view.form</field>
+    <field name="model">automovil</field>
+    <field name="arch" type="xml">
+        <form string="Automovil">
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="doors_number"/>
+                    <field name="is_on"/>
+                    <field name="velocity"/>
+                    <field name="description"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
 
 </odoo>
