@@ -1,0 +1,107 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* automovil
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-09 21:58+0000\n"
+"PO-Revision-Date: 2022-08-09 17:09-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: automovil
+#: model:ir.model,name:automovil.model_automovil
+#: model:ir.ui.menu,name:automovil.automovil_menu_act
+#: model:ir.ui.menu,name:automovil.automovil_menu_root
+#: model_terms:ir.ui.view,arch_db:automovil.automovil_view_form
+msgid "Automovil"
+msgstr "Automovil"
+
+#. module: automovil
+#: model:ir.actions.act_window,name:automovil.automovil_action
+#: model:ir.ui.menu,name:automovil.automovil_menu_categ
+msgid "Automoviles"
+msgstr "Automoviles"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__doors_number
+msgid "Doors Number"
+msgstr "Puertas"
+
+#. module: automovil
+#: model_terms:ir.actions.act_window,help:automovil.automovil_action
+msgid "Hola aqui puedes crear mas automoviles"
+msgstr "Hola aqui puedes crear mas automoviles"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__id
+msgid "ID"
+msgstr "ID"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__is_on
+msgid "Is On"
+msgstr "Está encendida la máquina"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil____last_update
+msgid "Last Modified on"
+msgstr "Modificado el"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__write_date
+msgid "Last Updated on"
+msgstr "Actualizado el"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__model_year
+msgid "Model Year"
+msgstr "Año Modelo"
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: automovil
+#: model_terms:ir.actions.act_window,help:automovil.automovil_action
+msgid "No hemos encontrado ningun automovil."
+msgstr "No hemos encontrado ningun automovil."
+
+#. module: automovil
+#: model:ir.model.fields,field_description:automovil.field_automovil__velocity
+msgid "Velocity"
+msgstr "Velocidad"
